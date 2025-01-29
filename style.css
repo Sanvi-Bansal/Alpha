@@ -1,0 +1,16 @@
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 20px;
+}
+.blog-card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 10px;
+    border-radius: 8px;
+    background-color: white;
+}
+.blog-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
